@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>XML AND JAVASCRIPT</h1> <br>
+    <form method="get" action="">
+    <label for="email" class="Email" > Your E-mail*: </label>
+    <input type="text" id= "Email" name="email"/> <br>
+    <br>
+    <label for="date_visit" class="date_visit">Date of Visit</label>
+    <input type="date" id="date_visit" name="date_visit"/><br/> 
+    <br>
+    <label for="comment" class="comment">Your Comment:</label>
+    <textarea rows="6" cols="40"></textarea><br>
+    <br>
+    <button onclick="feedback()">Send your Feedback</button> <br>
+    <span id="feedbackEmail"></span>
+    <span id="feedbackvisitdate"></span>
+    <span id="feedbackComment"></span>
+    </form>
+    <script>
+        let feedbackEmail = document.getElementById('feedbackEmail')
+        let feedbackvisitdate = document.getElementById('feedbackvisitdate')
+        let feedbackComment = document.getElementById('feedbackComment')
+
+        function feedback(e) {
+            event.preventDefault();
+        feedbackemail.innerText = "Email: " + document.getElementById('Email').value
+        feedbackvisitdate.innerText = "Date: " + document.getElementById('date').value
+        feedbackComment.innerText = "comment: " + docuement.getElementById('comment').values
+        }
+    </script>
+</body>
+</html>

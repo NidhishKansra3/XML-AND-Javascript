@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyFamily>
+    <member1>
+        <name> Nidhish Kansra </name>
+        <age> 24 </age>
+        <hobbies> play table tennis </hobbies>
+    </member1>
+    <member2>
+        <name> Jai Kansra </name>
+        <age> 28 </age>
+        <hobbies> watch movies </hobbies>
+    </member2>
+    <member3>
+        <name> Anju Kansra </name>
+        <age> 54 </age>
+        <hobbies> Cooking </hobbies>
+    </member3>
+    <member4>
+        <name> Neeraj Kansra </name>
+        <age> 56 </age>
+        <hobbies> Do yoga </hobbies>
+    </member4>
+    <member5>
+        <name> Auli Kansra </name>
+        <age> 29 </age>
+        <hobbies> write code </hobbies>
+    </member5>
+    <member6>
+        <name> Kapil Kansra </name>
+        <age> 40 </age>
+        <hobbies> drawing </hobbies>
+    </member6>
+    <member7>
+        <name> Neena Kansra </name>
+        <age> 65 </age>
+        <hobbies> writing </hobbies>
+    </member7>
+    <member8>
+        <name> Meera Kansra </name>
+        <age> 38 </age>
+        <hobbies> cycling </hobbies>
+    </member8>
+    <member9>
+        <name> Parth Kansra </name>
+        <age> 26 </age>
+        <hobbies> singing </hobbies>
+    </member9>
+    <member10>
+        <name> Namya Kansra </name>
+        <age> 13 </age>
+        <hobbies> play guitar </hobbies>
+    </member10>
+</MyFamily> 
