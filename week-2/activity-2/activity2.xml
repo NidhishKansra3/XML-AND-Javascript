@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BusinessCards>
+    <Person1>
+        <Name>Joe Martini</Name>
+        <Phone type = "home">+1 (415) 555-1234</Phone>
+        <Phone type = "work">+1 (800) 555-9867</Phone>
+        <Phone type = "mobile">+1 (510) 555-1212</Phone>
+        <Email>joe@joe.com</Email>
+    </Person1>
+    <Person2>
+        <Name>Joe Martini</Name>
+        <Phone type = "home">+1 (415) 555-1234</Phone>
+        <Phone type = "work">+1 (800) 555-9867</Phone>
+        <Phone type = "mobile">+1 (510) 555-1212</Phone>
+        <Email>joe@joe.com</Email>
+    </Person2>
+    <Person3>
+        <Name>Joe Martini</Name>
+        <Phone type = "home">+1 (415) 555-1234</Phone>
+        <Phone type = "work">+1 (800) 555-9867</Phone>
+        <Phone type = "mobile">+1 (510) 555-1212</Phone>
+        <Email>joe@joe.com</Email>
+    </Person3>
+</BusinessCards>
