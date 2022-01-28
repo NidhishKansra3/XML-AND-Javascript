@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="products">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="product" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="productName" type="xs:string"/>
+                            <xs:element name="manufacturer">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" use="required" name="id" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType> 
+                            </xs:element>
+                            <xs:element type="xs:string" minOccurs="0" name="description" />
+                            <xs:element name="prices">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" maxOccurs="unbounded" name="price" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="productItems" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" use="required" name="sku" />
+                        <xs:attribute type="xs:dateTime" use="required" name="createdAt" />
+                        <xs:attribute type="xs:boolean" use="required" name="shippable" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+
+                    
