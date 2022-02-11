@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Activity 5</title>
+		<script Dish="Button Chicken">
+			function formValues(event) {
+				event.preventDefault();
+				const form = event.target;
+				const fname = form.fname.value;
+				const Dish = form.Dish.value;
+				const inputElements = form.Artist;
+				let favouriteArtist= "";
+				for (let i = 0; inputElements[i]; ++i) {
+					if (inputElements[i].checked) {
+						favouriteArtist += inputElements[i].value + " ";
+					}
+				}
+				console.log(`Name: ${fname}`);
+				console.log(`Favorite Dish: ${Dish}`);
+				console.log(`Favourite Artist: ${favouriteArtist}`);
+			}
+		</script>
+	</head>
+	<body>
+		<form onSubmit="formValues(event)" action="" method="get">
+            <h3>Enter your details:</h3>
+			<label for="fname">Enter your name: </label>
+			<input type="text" name="fname" value="" /><br />
+			<p>Favourite Artist:</p>
+			<input type="checkbox" name="Artist" id="Karan Aujla" value="Karan Aujla" />
+			<label for="Karan Aujla">Karan Aujla</label>
+			<input type="checkbox" name="Artist" id="Ap Dhillon" value="Ap Dhillon" />
+			<label for="Ap Dhillonl">Ap Dhillon</label>
+			<input type="checkbox" name="Artist" id="Shah Rukh Khan" value="Shah Rukh Khan"" />
+			<label for="Shah Rukh Khan">Shah Rukh Khan"</label>
+			<br />
+            <p>Favourite Dish:</p>
+			<input type="radio" name="Dish" id="Chicken tikka" value="Chicken tikka" />
+			<label for="Chicken tikka">Chicken tikka</label>
+            <input type="radio" name="Dish" id="Butter Chicken" value="Butter Chicken" />
+			<label for="Butter Chicken">Butter Chicken</label>
+			<input type="radio" name="Dish" id="Tangri kabab" value="Tangri kabab" />
+			<label for=""Tangri kabab">"Tangri kabab</label>
+			<br />
+			<br />
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>
