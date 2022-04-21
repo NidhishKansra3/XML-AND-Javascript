@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Country Data</title>
+	</head>
+	<body>
+		<form onsubmit="onSubmit(event)" onreset="onReset()">
+			<input type="number" name="id" id="input-id" placeholder="Search by ID" />
+			<input type="text" name="Country" id="Country" placeholder="Search by Country" />
+			<input type="text" name="Currency" id="Currency" placeholder="Search by Currency" />
+            <input type="text" name="Currency_Code" id="Currency_Code" placeholder="Search by Currency_Code" />
+			
+			<button type="submit">Apply</button>
+			<button type="reset">Reset</button>
+		</form> <br>
+		<table border ="1">
+			<thead>
+				<th>ID</th>
+				<th>Country</th>
+				<th>Currency</th>
+				<th>Currency_code</th>
+			</thead>
+			<tbody id="table-data"></tbody>
+		</table>
+	</body>
+	<script src="./bundle.js"></script>
+</html>
